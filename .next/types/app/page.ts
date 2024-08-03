@@ -1,7 +1,6 @@
-// File: /home/shaurya/Desktop/Next-Portfolio/app/page.js
+// File: /home/shaurya/Desktop/My Coding/Next-Portfolio/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
-import React from 'react';
 
 type TEntry = typeof import('../../../app/page.js')
 

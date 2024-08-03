@@ -6,6 +6,7 @@ import newsWorldImage from "../../public/images/projects/Newsworld.png";
 import diceeGameImage from "../../public/images/projects/diceeGame.png";
 import literatureJunctionImage from "../../public/images/projects/literatureJunction.png";
 import drumkitImage from "../../public/images/projects/drumkit.png";
+import ticTacToe from "../../public/images/projects/ticTacToe.png";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
@@ -28,6 +29,14 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "Tic-Tac-Toe Game",
+    description: "Tic-Tac-Toe Game - a game",
+    image: ticTacToe,
+    gitUrl: "https://github.com/ss-coder30/Tic-Tac-Toe",
+    previewUrl: "https://ss-coder30.github.io/Tic-Tac-Toe/",
+  },
+  {
+    id: 4,
     title: "Dicee Game",
     description: "Dicee Game - a game",
     image: diceeGameImage,
@@ -35,7 +44,7 @@ const projectsData = [
     previewUrl: "https://dice-game-ss-coder30.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Literature Junction",
     description: "Literature junction",
     image: literatureJunctionImage,
@@ -43,7 +52,7 @@ const projectsData = [
     previewUrl: "https://literature-junction.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Drum Kit Application",
     description: "Drum Kit Application ",
     image: drumkitImage,
