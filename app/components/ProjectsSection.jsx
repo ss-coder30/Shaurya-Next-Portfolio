@@ -7,6 +7,7 @@ import diceeGameImage from "../../public/images/projects/diceeGame.png";
 import literatureJunctionImage from "../../public/images/projects/literatureJunction.png";
 import drumkitImage from "../../public/images/projects/drumkit.png";
 import ticTacToe from "../../public/images/projects/ticTacToe.png";
+import rockPaperScissorsGameImage from "../../public/images/projects/rockPaperScissors.png";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
@@ -37,14 +38,22 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "Rock Paper Scissors Game",
+    description: "Rock Paper Scissors Game against computer player- a game",
+    image: diceeGameImage,
+    gitUrl: "https://github.com/ss-coder30/Rock-Paper-Scissors",
+    previewUrl: "https://rock-paper-scissors-lac-three-76.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Dicee Game",
     description: "Dicee Game - a game",
-    image: diceeGameImage,
+    image: rockPaperScissorsGameImage,
     gitUrl: "https://github.com/ss-coder30/dice_game",
     previewUrl: "https://dice-game-ss-coder30.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Literature Junction",
     description: "Literature junction",
     image: literatureJunctionImage,
@@ -52,7 +61,7 @@ const projectsData = [
     previewUrl: "https://literature-junction.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Drum Kit Application",
     description: "Drum Kit Application ",
     image: drumkitImage,
