@@ -8,10 +8,19 @@ import literatureJunctionImage from "../../public/images/projects/literatureJunc
 import drumkitImage from "../../public/images/projects/drumkit.png";
 import ticTacToe from "../../public/images/projects/ticTacToe.png";
 import rockPaperScissorsGameImage from "../../public/images/projects/rockPaperScissors.png";
+import learnHubImage from "../../public/images/projects/learnHub.png";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+  {
+    id: 1,
+    title: "LearnHub - Learning Management System",
+    description: "LearnHub - Learning Management System",
+    image: learnHubImage,
+    gitUrl: "https://github.com/ss-coder30/LearnHub-Project",
+    previewUrl: "https://learn-hub-project-xi.vercel.app/",
+  },
   {
     id: 1,
     title: "Personalised Music Player System",
